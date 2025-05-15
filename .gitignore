@@ -1,0 +1,54 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Caches and logs
+*.log
+*.cache
+*.coverage
+
+# Environments
+.env
+.venv/
+venv/
+env/
+ENV/
+*.env
+
+# Jupyter/IPython
+.ipynb_checkpoints
+
+# VSCode / IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# OS-generated
+.DS_Store
+Thumbs.db
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+# Pip
+pip-log.txt
+
+# Local settings or secrets
+secrets.yml
+config.yaml
+*.sqlite3
+
+# Static output
+*.html~
+map*.html  # auto-generated maps
+
+# PyInstaller
+*.spec
+
+# Uvicorn reload artifacts
+*.reload
